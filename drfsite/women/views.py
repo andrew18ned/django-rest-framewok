@@ -34,10 +34,3 @@ class WomenAPIView(APIView):
         serializer.is_valid()
         serializer.save()
         return Response({'post':serializer.data})
-
-
-
-#class WomenAPIView(generics.ListAPIView):
- #   queryset = Women.objects.all()
- #  serializer_class = WomenSerializer
-
