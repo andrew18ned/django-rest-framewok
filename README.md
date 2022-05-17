@@ -1,3 +1,3 @@
 # django-rest-framewok
 
-I study serializer, api, json
+I study serializer, api, json, CreateAPIView
